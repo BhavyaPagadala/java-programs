@@ -20,7 +20,7 @@ class Student extends Person{
 	void displayInfo(){
 		super.displayInfo();
 		System.out.println("Student id:"+student_id);
-		System.out.println("Couse:"+course);
+		System.out.println("Course:"+course);
 	}
 }
 class ResearchStudent extends Student{
@@ -32,7 +32,7 @@ class ResearchStudent extends Student{
 	}void displayInfo(){
 		super.displayInfo();
 		System.out.println("Research Topic:"+researchTopic);
-		System.out.println("Guide Nmae:"+guideName);
+		System.out.println("Guide Name:"+guideName);
 	}
 }
 public class MultilevelInheritance{
